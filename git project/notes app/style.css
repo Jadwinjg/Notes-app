@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Protest Riot;
+}
+
+.star1 {
+    background-color: rgb(7, 215, 215);
+    padding: 10px;
+}
+
+.container {
+    padding: 10px;
+
+}
+
+.book-container {
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    z-index: 1;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.book-container h2,
+h5 {
+    color: rgb(6, 210, 210);
+}
+
+.book-container button {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(6, 214, 214);
+    color: black;
+    border: none;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.button {
+    background-color: rgb(7, 209, 209);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: none;
+    position: relative;
+    top: 50px;
+    left: 93%;
+}
+
+.star4 {
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.star5 {
+    background-color: rgb(4, 195, 195);
+    width: 30%;
+    padding: 40px;
+    border-radius: 12px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+
+.star5 input {
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.star5 textarea {
+
+    background: transparent;
+    border-bottom: 2px solid black;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.star5 input::placeholder {
+    color: black;
+}
+
+.star5 textarea::placeholder {
+    color: black;
+}
+
+.star5 button {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    padding-bottom: 2px;
+    font-size: 10px;
+}
+
+.star5 h2 {
+    font-family: sans-serif;
+}
+
+.star5 input:focus {
+    outline: none;
+}
+
+.star5 textarea:focus {
+    outline: none;
+}
